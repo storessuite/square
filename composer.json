@@ -1,0 +1,28 @@
+{
+    "name": "storessuite/square",
+    "description": "Square integration for Laravel apps.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "StoresSuite\\Square\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "StoresSuite\\Square\\SquareServiceProvider"
+            ]
+        }
+    },
+    "authors": [
+        {
+            "name": "sarojkalamagar",
+            "email": "sarojkalamagar@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "illuminate/database": "^11.35"
+    }
+}
